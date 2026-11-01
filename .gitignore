@@ -1,0 +1,13 @@
+# Altium Designer temporary and preview files
+__Previews/
+History/
+Project Outputs for */
+Project Logs for */
+*.PrjPcbStructure
+*.htm
+*.Dat
+*.Trash
+
+# Lock files when Altium is open
+*.lck
+~$*
