@@ -42,7 +42,7 @@ This board was designed for a custom Homelab setup containing multiple thin clie
 | **Power Monitor** | `INA226AIDGSR` (`U4`) | High-side I2C current/voltage/power monitor across a `10 mΩ` (`0.01 Ω`) shunt resistor |
 | **Thermal Sensor** | `TMP125` (`U3`) | SPI temperature sensor placed near the switching hot loop for thermal monitoring |
 | **Dell Adapter ID** | `DS2501` (`U2`) | Salvaged 1-Wire EPROM on the `DATA_OUT` line so the Dell thin client recognizes the 65W supply |
-| **Digital Control** | ESP32 Headers (`J_ESP_L/R`) | Controls `EN_CTRL` (enable) and `DAC_TRIM` (voltage trimming via `1 MΩ` injection resistor) |
+| **Digital Control** | ESP32 Headers (`J_ESP_L/R`) | Controls `EN_CTRL` (enable) and `DAC_TRIM` (voltage trimming via `3.3 MΩ` injection resistor) |
 
 ---
 
